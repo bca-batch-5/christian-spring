@@ -1,0 +1,8 @@
+- user: login (username, password) -> FE (POST)
+- BE -> POST login:
+  - mencari user dengan username input
+  - misal cocok, Response API akan mengembalikan token, username
+  - success
+  - misal tidak cocok, Response API akan mengembalikan message error, "username tidak ada"
+  - error
+- FE: mendapatkan Response API yg dibutuhkna, redirect ke halaman home
