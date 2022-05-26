@@ -8,15 +8,10 @@ import com.latihanDaerah.latihanDaerah.dto.request.KecamatanRequest;
 import com.latihanDaerah.latihanDaerah.dto.request.KelurahanRequest;
 import com.latihanDaerah.latihanDaerah.dto.request.KotaRequest;
 import com.latihanDaerah.latihanDaerah.dto.request.ProvinsiRequest;
-import com.latihanDaerah.latihanDaerah.dto.response.Response;
 import com.latihanDaerah.latihanDaerah.model.Kecamatan;
 import com.latihanDaerah.latihanDaerah.model.Kelurahan;
 import com.latihanDaerah.latihanDaerah.model.Kota;
 import com.latihanDaerah.latihanDaerah.model.Provinsi;
-import com.latihanDaerah.latihanDaerah.repository.ProvinsiRepository;
-
-import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
